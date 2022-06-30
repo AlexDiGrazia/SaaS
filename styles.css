@@ -1,0 +1,204 @@
+
+.hero  {
+  height: 695px;
+  min-width: 100vw;
+  background-image: 
+    linear-gradient(173deg, transparent 0%, transparent 70%, white 70% 67%, white), 
+    linear-gradient(118deg, transparent 0%, transparent 68%, #f1f3f7 68%, #f1f3f7  100%), 
+    linear-gradient(to top left, #edeff3, transparent 60%);
+}
+
+.hero-top-tabs {
+  display: flex;
+  padding-top: 5px;
+  font-size: 13px;
+}
+
+.hero-top-tabs a i { 
+  font-size: 9px;
+  margin: 0 5px;
+ }
+
+
+
+.left {
+  margin-right: auto;
+}
+
+.right {
+  display: flex;
+  width: 175px;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.right a {
+  width: 115px;
+}
+
+
+.main-nav-container {
+  display: flex;
+  margin-top: 15px;
+}
+
+.buy-now-btn {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.main-nav-container img {
+  max-width: 100px;
+  margin-right: auto;
+  
+}
+
+.main-nav-container nav ul {
+  display: flex;
+  width: 410px;
+  justify-content: space-between;
+  font-size: var(--size-14);
+}
+
+[aria-controls="navbarDropdown"] {
+  display: none;
+}
+
+.navbar-toggler {
+    position: absolute;
+    right: var(--size-20);
+    top: var(--size-10);
+    outline: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.navbar-toggler span {
+  color: var(--white);
+  font-size: var(--size-20);
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.hero-banner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;   
+  margin-top: var(--size-60); 
+}
+
+.banner-container {
+  max-width: 350px;
+}
+
+.margin-right-auto {
+  margin-right: auto;
+}
+
+.icons {
+  margin-left: auto;
+}
+
+
+.banner-container a {
+  margin-right: var(--size-20);
+}
+
+.banner-container h1 {
+  font-size: 53px;
+  margin-bottom: 0;
+}
+
+.banner-container p {
+  margin-bottom: 40px;
+}
+
+.banner-container a.learn-more {
+  color: #497BF7;
+  font-size: 0.813rem;
+  font-weight: 900;
+}
+
+.learn-more i {
+  margin-left: 8px;
+}
+
+.icons {
+  border: 1px solid transparent;
+  width: 425px;
+  height: 400px;
+}
+
+.icons {
+  position: relative;
+}
+
+.logo-icons {
+  max-width: 30px;
+  max-height: 30px;
+  /* margin: 30px; */
+  
+}
+
+.icons div {
+  background: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 5px 20px 1px #e9ecf1;
+}
+
+.circle {
+  width: var(--size-65);
+  height: var(--size-65);
+}
+
+.smaller-circle {
+  width: var(--size-55);
+  height: var(--size-55);
+}
+
+.logo1 {
+  position: absolute;
+  top: 180px;
+  left: 15px;
+}
+
+.logo2 {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+}
+
+.logo3 {
+  position: absolute;
+  top: 90px;
+  left: 120px;
+}
+
+.logo4 {
+  position: absolute;
+  top: 275px;
+  left: 105px;
+}
+
+.logo5 {
+  position: absolute;
+  top: 182px;
+  left: 195px;
+}
+
+.logo6 {
+  position: absolute;
+  top: 50px;
+  left: 340px;
+}
+
+.logo7 {
+  position: absolute;
+  top: 320px;
+  left: 340px;
+}
+

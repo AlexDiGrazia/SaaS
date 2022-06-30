@@ -1,0 +1,132 @@
+@media (max-width: 1089px) {
+  .margin-right-auto {
+    margin-right: 0;
+  }
+}
+
+
+@media screen and (max-width: 866px) {
+  .hero {
+    height: 800px;
+  }
+  
+  .icons {
+    margin-left: 0;
+  }
+
+  .banner-container {
+    max-width: 550px;
+    margin-top: 55px;
+  }
+
+  .hero-banner { 
+    margin-top: 0;
+    gap: 35px;
+  }
+  
+  .banner-container h1 {
+    margin-top: 0;
+  }
+
+  .banner-container p {
+    margin-bottom: 35px;
+    margin-top: 10px;
+  }
+
+  .hero-top-tabs {
+    display: none;
+  }
+
+  [aria-controls="navbarDropdown"] {
+      display: block;
+  } 
+
+  .main-nav-container [aria-expanded="false"] ~ ul {
+      display: none;
+  }
+
+  /* .main-nav-container nav ul {
+    display: none;
+  } */
+
+ .main-nav-container [aria-expanded="true"] ~  ul {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: var(--size-50);
+    width: 100%;
+    text-align: right;
+    max-width: max-content;
+    margin-right: 50px;
+  }
+
+  .main-nav-container [aria-expanded="true"] ~ ul li:nth-child(6) {
+    border-bottom: 1px solid black;
+  }
+
+
+  .main-nav-container [aria-expanded="true"] ~  ul .buy-now-btn {
+    background-color: transparent;
+    border-radius:0;
+    color: black;
+    padding: 0;
+    font-weight: 400;
+  }
+
+  [aria-expanded="true"] ~ ul li a {
+    /* margin-right: var(--size-20); */
+    /* color: var(--font-color-dark); */
+  }
+
+  [aria-expanded="true"] ~ ul li {
+    padding: 10px 40px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons div.logo4,
+  .icons div.logo7 {
+    display: none;
+  }
+
+  /* .main-nav-container nav ul {
+    display: block;
+    max-width: 550px;
+  } */
+
+  .main-nav-container {
+    max-width: 555px;
+  }
+  .main-nav-container img{
+    position: fixed;
+  }
+
+  .navbar-toggler {
+    position: fixed;
+    top: 20px;
+    right: 100px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .logo6 { left: 280px; }
+  .hero { height: 920px; }
+  .navbar-toggler { right: var(--size-20); }
+
+}
+
+@media screen and (max-width: 375px) {
+  .logo6 { left: 240px; }
+}
+
+
+
+
+
+
+
+
