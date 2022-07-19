@@ -37,6 +37,42 @@
     /* display: none; */
   }
 }
+
+@media screen and (max-width: 973px) {
+  .footer {
+    padding: 15px 0px 35px;
+  }
+  
+  .footer-flex-container form {
+    max-width: none;
+  }
+  .footer-flex-container form h3{
+    max-width: none;
+  }
+
+  .footer-flex-container div {
+    max-width: none;
+    margin-left: 5px;
+  }
+
+}
+@media screen and (max-width: 973px) and (min-width: 768px) {
+  
+  input {
+    width: 255px;
+  }
+
+  select { 
+    width: 265px
+  }
+
+  form textarea {
+    width: 540px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+
 @media screen and (max-width: 914px) and (min-width: 769px) {
   .slack {display: none;}
 }
@@ -164,6 +200,12 @@
   } */
 }
 
+@media screen and (max-width: 771px) and (min-width: 769px) {
+  .footer-flex-container div {
+    margin-left: 0px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .card-flex-box .card {
     max-width: 250px;
@@ -262,9 +304,13 @@
     align-items: center;
   }
 
-  .hubspot-flex-wrapper > img {
+  /* .hubspot-flex-wrapper > img {
     max-width: 545px;
-  }
+  } */
+
+  .hubspot-flex-wrapper > img {
+    max-width: 75%;
+}
 
   .hubspot-flex-wrapper .grid-of-dots {
     position: absolute;
@@ -306,6 +352,31 @@
   .spotify {
     display: none;
   }
+
+  section.pricing {
+    max-width: 540px;
+  }
+
+  .footer-container {
+    margin: 0 15px;
+  }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 599px) {
+  input {
+    width: 205px;
+  }
+
+  select { 
+    width: 215px
+  }
+
+  form textarea {
+    width: 435px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 614px) {
@@ -322,6 +393,55 @@
   }
 }
 
+@media screen and (max-width: 601px) and (min-width: 599px) {
+  .footer-flex-container div {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 598px) and (min-width: 591px) {
+  input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 330px;
+  }
+
+  select {
+    width: 340px;
+  }
+
+  textarea {
+    width: 335px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  input {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 270px;
+  }
+
+  select {
+    width: 280px;
+  }
+
+  .third-form-line .country {
+    /* width: 285px; */
+  }
+
+  form textarea {
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+ /* .hubspot-flex-wrapper > img {
+    max-width: 382.5px;
+  } */
+}
 @media screen and (max-width: 535px) {
   .hero {
     height: 940px;
@@ -347,6 +467,11 @@
   }
 }
 
+@media screen and (max-width: 470px) {
+  .pricing-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(395px, 1fr));
+  }
+}
 
 @media screen and (max-width: 450px) {
   .logo6 { left: 280px; }
@@ -362,6 +487,9 @@
     margin-top: 100px;
   }
 
+  .pricing-grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+  }
   
   
   .why-front div.video-wrapper img {
@@ -371,7 +499,7 @@
   }
 
   .hubspot-flex-wrapper img {
-    max-width: 357px;
+    max-width: 93%;
   }
 
   .hubspot-flex-wrapper .grid-of-dots {
@@ -404,8 +532,11 @@
     padding-left: 20px;
     padding-right: 20px;
   }
-}
 
+  .pricing-grid-container {
+    margin-top: 20px;
+  }
+} 
 
 
 @media screen and (max-width: 392px) {
@@ -446,7 +577,7 @@
   }
 
   .hubspot-flex-wrapper > img {
-    max-width: 335px;
+    max-width: 100%;
   }
 
   .hubspot-flex-wrapper .grid-of-dots {
@@ -460,10 +591,43 @@
   .logo-flex-wrapper div.logo {
     min-width: 90px;
   }
+
+  .pricing-grid-container {
+    margin-top: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
+  }
+  .pricing-internal-grid {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  }
+
+  .pricing-internal-grid div h4 {
+    font-size: 22px;
+  }
+
+  .pricing-internal-grid div p {
+    font-size: 18px;
+  } 
+
+  .pricing-internal-grid img {
+    max-width: 70px;
+  }
+
+  .pricing-internal-grid div p {
+    max-width: 350px;
+    margin-bottom: 50px;
+  }
+
+  .starting-price {
+    margin-right: 20px;
+  }
+
+  .starting-price p {
+    font-size: 18px;
+  }
 }
 
 
-
+      
 
 
 

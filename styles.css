@@ -591,21 +591,20 @@ br.tablet {
  /* Footer */
 
  .footer {
-   height: 500px;
    background-color: #2A365B;
    background-image: url("saas-project-assets/abstract/hire-us-transparent-pattern-bg.svg");
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 125px;
+   padding: 75px 0px;
    margin-bottom: 100px;
  }
 
  .footer-flex-container {
-   /* width: 900px; */
-   height: 590px;
    display: flex;
+   flex-wrap: wrap;
    gap: 30px;
+   margin: 0 20px;
  }
 
  .footer-flex-container div {
@@ -703,6 +702,11 @@ br.tablet {
  .footer form {
    background-color: white;
    color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-right: auto;
+   margin-left: auto;
  }
 
 
@@ -710,7 +714,8 @@ br.tablet {
    text-align: center;
    border-radius: 5px;
    font-weight: 900;
-   padding: 16px 20px
+   padding: 16px 20px;
+   margin-bottom: 40px;
  }
 
  form input.form-checkbox {
