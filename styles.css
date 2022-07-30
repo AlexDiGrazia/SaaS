@@ -727,6 +727,10 @@ br.tablet {
    width: 150px;
  }
 
+form select {
+  color: var(--font-color-light);
+}
+
  select {
   width: 158px;
 }
@@ -769,6 +773,12 @@ textarea::placeholder {
   margin: 0 0 20px 0;
   font-size: 14px;
   line-height: 20px;
+}
+
+.consent p a {
+  color: var(--font-color-light);
+  text-decoration: underline;
+  text-decoration-style: dashed;
 }
 
 /* Links */
@@ -883,11 +893,14 @@ hr.container { margin-bottom: 60px;}
   background-color: #F2F4F5;
   border: none;
   border-radius: 5px;
+  color: var(--font-color-light);
 }
 
 section.copyright {
   text-align: center;
   margin-bottom: 50px;
+  position: relative;
+  padding-bottom: 10px;
 }
 
 .copyright h5 span { margin-right: 10px;}
@@ -900,4 +913,20 @@ section.copyright {
 .trusted {
   padding-left: 80px;
   padding-right: 80px;
+}
+
+#scrollUp {
+  background-color: #f1f3f5;
+  color: #6A7785;
+  font-size: var(--size-16);
+  font-weight: 900;
+  height: var(--size-50);
+  width: var(--size-50);
+  line-height: var(--size-50);
+  position: absolute;
+  right: var(--size-30);
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 100;
 }
