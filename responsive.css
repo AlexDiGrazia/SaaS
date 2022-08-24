@@ -4,20 +4,26 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  #scrollUp {
+    right: 0.625rem;
+  }
+}
+
 @media screen and (max-width: 1009px) {
   section.pricing {
-    max-width: 600px;
+    max-width: 37.5rem;
   }
 
   .links {
-    margin-left: 40px;
-    margin-bottom: 90px;
+    margin-left: var(--size-40);
+    margin-bottom: 5.625rem;
   }
 
   .links-inside-container,
   .row-one,
   .row-two {
-    gap: 85px;
+    gap: 5.313rem;
   }
 
   hr.responsive-length {
@@ -27,7 +33,7 @@
 
 @media screen and (max-width: 1004px) {
   .card-flex-box .card {
-    max-width: 325px;
+    max-width: 20.313rem;
   }
 
   .different-perspective {
@@ -36,31 +42,28 @@
   }
 
   .responsive-container {
-    max-width: 735px;
+    max-width: 45.938rem;
   }
 
   .different-perspective-text {
     text-align: left;
-    padding: 55px 72px 0px 72px;
+    padding: 3.438rem 4.5rem 0px 4.5rem;
   } 
 
   .different-perspective img {
     max-width: 82%;
   }
-
-  .front-reasons hr {
-    /* display: none; */
-  }
 }
 
 @media screen and (max-width: 973px) {
   .footer {
-    padding: 15px 0px 35px;
+    padding: 0.938rem 0px 2.188rem;
   }
   
   .footer-flex-container form {
     max-width: none;
   }
+
   .footer-flex-container form h3{
     max-width: none;
   }
@@ -71,7 +74,7 @@
   }
 
   .footer-container {
-    margin: 0 15px 100px 15px;
+    margin: 0 0.938rem 6.25rem 0.938rem;
 }
 
 .form-btn { 
@@ -91,19 +94,18 @@
   .footer-nav {
     gap: 35px;
     padding: 0 60px 0 18%;
-    margin-bottom: 50px;
+    margin-bottom: var(--size-50);
   }
-
 
   section.copyright {
     text-align: left;
-    margin-bottom: 50px;
+    margin-bottom: var(--size-50);
     margin-left: 18%;
   }
   
   .copyright p {
-    font-size: 14px;
-     padding-right: 100px;
+    font-size: var(--size-14);
+     padding-right: var(--size-100);
   }
 
   section.copyright p br {
@@ -113,38 +115,37 @@
 }
 
 @media screen and (max-width: 973px) and (min-width: 768px) {
-  
   input {
-    width: 275px;
+    width: 17.188rem;
   }
 
   form select { 
-    width: 285px
+    width: 17.813rem;
   }
 
   form textarea {
-    width: 577px;
-    margin-left: 5px;
-    margin-bottom: 0px;
+    width: 36.063rem;
+    margin-left: 0.313rem;
+    margin-bottom: 0rem;
   }
 
   .form-checkbox {
-    margin-left: 23px;
+    margin-left: 1.438rem;
   }
   .consent p {
-    max-width: 550px;
-    margin: 0px 23px 20px 0px;
+    max-width: 34.375rem;
+    margin: 0rem 1.438rem 1.25rem 0rem;
   }
 }
 
 @media screen and (max-width: 965px){
   .fa-facebook-f {
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 
   .footer-nav div.social-media {
-    margin-left: 0px;
-}
+    margin-left: 0rem;
+  }
 
  
 }
@@ -155,7 +156,7 @@
 
 @media screen and (max-width: 866px) {
   .hero {
-    height: 845px;
+    height: 52.813rem;
   }
 
   .key-benefits {
@@ -164,18 +165,17 @@
   
   .icons {
     margin-left: 0;
-    margin-top: 10px;
+    margin-top: 0.625rem;
   }
 
   .banner-container {
-    max-width: 550px;
-    /* margin-top: 55px; */
-    margin-top: 85px;
+    max-width: 34.375rem;
+    margin-top: 5.313rem;
   }
 
   .hero-banner { 
     margin-top: 0;
-    gap: 35px;
+    gap: var(--size-35);
   }
   
   .banner-container h1 {
@@ -183,8 +183,8 @@
   }
 
   .banner-container p {
-    margin-bottom: 35px;
-    margin-top: 10px;
+    margin-bottom: var(--size-35);
+    margin-top: 0.625rem;
   }
 
   .hero-top-tabs {
@@ -199,10 +199,6 @@
       display: none;
   }
 
-  /* .main-nav-container nav ul {
-    display: none;
-  } */
-
  .main-nav-container [aria-expanded="true"] ~  ul {
     display: block;
     position: absolute;
@@ -211,13 +207,15 @@
     width: 100%;
     text-align: right;
     max-width: max-content;
-    margin-right: 50px;
+    margin-right: var(--size-50);
+    background-color: white;
+    padding-left: 0rem;
+    box-shadow: 0 0 100px 10px  rgba(48, 63, 100, 0.2);
   }
 
   .main-nav-container [aria-expanded="true"] ~ ul li:nth-child(6) {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid  rgba(48, 63, 100, 0.2);
   }
-
 
   .main-nav-container [aria-expanded="true"] ~  ul .buy-now-btn {
     background-color: transparent;
@@ -225,18 +223,14 @@
     color: black;
     padding: 0;
     font-weight: 400;
-  }
-
-  [aria-expanded="true"] ~ ul li a {
-    /* margin-right: var(--size-20); */
-    /* color: var(--font-color-dark); */
+    padding-left: 0px;
   }
 
   [aria-expanded="true"] ~ ul li {
-    padding: 10px 40px;
-    border-top: 1px solid black;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
+    padding: 0.625rem 2.5rem;
+    border-top: 1px solid  rgba(48, 63, 100, 0.2);
+    border-right: 1px solid  rgba(48, 63, 100, 0.2);
+    border-left: 1px solid  rgba(48, 63, 100, 0.2);
     display: flex;
     justify-content: center;
   }
@@ -246,13 +240,8 @@
     display: none;
   }
 
-  /* .main-nav-container nav ul {
-    display: block;
-    max-width: 550px;
-  } */
-
   .main-nav-container {
-    max-width: 555px;
+    max-width: 34.688rem;
   }
   .main-nav-container img{
     position: absolute;
@@ -260,35 +249,24 @@
 
   .navbar-toggler {
     position: absolute;
-    top: 20px;
-    right: 100px;
+    top: var(--size-20);
+    right: var(--size-100);
   }
-
-}
-
-@media screen and (max-width: 835px) {
-  /* h3.cc {
-    width: 150px;
-  } */
-
-  /* .third-dot {
-    margin-top: 5px;
-  } */
 }
 
 @media screen and (max-width: 771px) and (min-width: 769px) {
   .footer-flex-container div {
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .card-flex-box .card {
-    max-width: 250px;
+    max-width: 15.625rem;
   }
 
   .responsive-container {
-    max-width: 580px;
+    max-width: 36.25rem;
   }
 
   .different-perspective img {
@@ -297,29 +275,20 @@
   }
 
   .key-benefits {
-    margin-bottom: 45px;
+    margin-bottom: var(--size-45);
   }
 
   .why-front {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .front-reasons {
-    /* transform: rotate(90deg);
-    height: 600px;
-    align-items: flex-end;
-    justify-content: initial;
-    position: absolute;
-    left: 100px; */
     transform: rotate(90deg);
-    /* height: 439px; */
     align-items: flex-end;
     justify-content: initial;
-    margin-top: 270px;
+    margin-top: 16.875rem;
     position: relative;
-    right: 185px;
-    /* position: absolute;
-    left: 100px; */
+    right: 11.563rem;
   }
 
  .front-reasons hr {
@@ -335,44 +304,43 @@
   }
 
   .reasons h3 {
-    width: 143px;
+    width: 8.938rem;
   }
 
   .third-dot {
-    margin-left: 64px;
+    margin-left: 4rem;
   }
+
   h3.cc {
-    width: 200px;
+    width: 12.5rem;
     position: relative;
-    left: 13px;
+    left: 0.813rem;
   }
 
   h3.basic-elements {
     position: relative;
-    left: 11px;
+    left: 0.688rem;
   }
-
 
   .reasons.cc {
     position: relative;
-    right: 60px;
+    right: var(--size-60);
   }
 
   .reasons.pl {
     position: relative;
-    right: 120px;
+    right: 7.5rem;
   }
 
   .hr3 {
     position: relative;
-    right: 120px;
+    right: 7.5rem;
   }
-
 
   .why-front div.video-wrapper img {
     box-shadow: 1px 1px 22px -7px;
     max-width: 75%;
-    height: 250px;
+    height: 15.625rem;
   }
 
   .hubspot-flex-wrapper {
@@ -380,26 +348,22 @@
     align-items: center;
   }
 
-  /* .hubspot-flex-wrapper > img {
-    max-width: 545px;
-  } */
-
   .hubspot-flex-wrapper > img {
     max-width: 75%;
 }
 
   .hubspot-flex-wrapper .grid-of-dots {
     position: absolute;
-    max-width: 214px;
+    max-width: 13.375rem;
     z-index: 10;
-    left: 55px;
-    top: 275px;
+    left: 3.438rem;
+    top: 17.188rem;
   }
 
   .hubspot-text {
     align-self: start;
-    margin-left: 100px;
-    margin-top: 100px;
+    margin-left: var(--size-100);
+    margin-top: var(--size-100);
   }
 
   .hubspot-text img {
@@ -408,12 +372,8 @@
 
   .hubspot-text p {
     line-height: 1.7;
-    font-size: 19px;
+    font-size: 1.188rem;
     letter-spacing: 1px
-  }
-
-  .hubspot-text br {
-    /* display: none */
   }
 
   br.desktop {
@@ -430,38 +390,33 @@
   }
 
   section.pricing {
-    max-width: 540px;
+    max-width: 33.75rem;
   }
-/* 
-  .footer-container {
-    margin: 0 15px;
-  } */
-
 }
 
 @media screen and (max-width: 767px) and (min-width: 599px) {
   input {
-    width: 205px;
+    width: 12.813rem;
   }
 
  form select { 
-    width: 215px
+    width: 13.438rem;
   }
 
   form textarea {
-    width: 435px;
-    margin-left: 5px;
-    margin-bottom: 0px;
+    width: 27.188rem;
+    margin-left: 0.313rem;
+    margin-bottom: 0rem;
   }
 }
 
 @media screen and (max-width: 614px) {
   .card-flex-box .card {
-    max-width: 310px;
+    max-width: 19.375rem;
   }
 
   .responsive-container {
-    max-width: 480px;
+    max-width: 30rem;
   }
 
   .key-benefits {
@@ -471,7 +426,7 @@
 
 @media screen and (max-width: 601px) and (min-width: 599px) {
   .footer-flex-container div {
-    margin-left: 0px;
+    margin-left: 0rem;
   }
 }
 
@@ -480,15 +435,15 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 330px;
+    width: 20.625rem;
   }
 
   form select {
-    width: 340px;
+    width: 21.25rem;
   }
 
   textarea {
-    width: 335px;
+    width: 20.938rem;
   }
 }
 
@@ -497,48 +452,44 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    width: 270px;
+    width: 16.875rem;
   }
 
   form select {
-    width: 280px;
-  }
-
-  .third-form-line .country {
-    /* width: 285px; */
+    width: 17.5rem;
   }
 
   form textarea {
-    width: 275px;
+    width: 17.188rem;
   }
 
   .copyright p {
-    padding-right: 50px;
+    padding-right: var(--size-50);
   }
 }
 
 @media screen and (max-width: 550px) {
   .row-one,
   .row-two {
-    gap: 55px;
+    gap: var(--size-55);
   }
 
   .columns h3 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .columns a {
-    font-size: 14px;
+    font-size: var(--size-14);
   }
   
   .columns a span {
-    font-size: 11px;
+    font-size: 0.688rem;
   }
-
 }
+
 @media screen and (max-width: 535px) {
   .hero {
-    height: 940px;
+    height: 58.75rem;
   }
   
   .links {
@@ -556,13 +507,13 @@
 
 @media screen and (max-width: 530px) {
   .policy-terms span {
-    margin: 0 17px;
+    margin: 0 1.063rem;
   }
 }
 
 @media screen and (max-width: 520px) {
   .responsive-container {
-    max-width: 345px;
+    max-width: 21.563rem;
   }
 
   .different-perspective-text {
@@ -570,7 +521,7 @@
   }
 
   .copyright p {
-    padding-right: 20px;
+    padding-right: var(--size-20);
   }
 }
 
@@ -578,7 +529,7 @@
   .logo-flex-wrapper {
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
+    gap: var(--size-30);
   }
 }
 
@@ -589,48 +540,53 @@
 }
 
 @media screen and (max-width: 450px) {
-  .logo6 { left: 280px; }
+  .logo6 { left: 17.5rem; }
 }
 
 @media screen and (max-width: 438px) {
   input { 
-    max-width: 210px;
+    max-width: 13.125rem;
     margin: 0 0px 20px 0px;
   }
 
   select {
-    max-width: 219px;
-    margin-left: 7px;
+    max-width: 13.688rem;
+    margin-left: 0.438rem;
   }
 
   .country {
-    margin-left: 7px;
+    margin-left: 0.438rem;
   }
 
   form textarea {
-    width: 210px;
+    width: 13.125rem;
   }
 }
 
 @media screen and (max-width: 425px) {
-  .logo6 { left: 280px; }
-  .hero { height: 980px; }
+  .logo6 { left: 17.5rem; }
+  .hero { height: 61.25rem; }
   .navbar-toggler { right: var(--size-20); }
   
   .front-reasons {
-    right: 85px;
-    margin-top: 100px;
+    right: 5.313rem;
+    margin-top: var(--size-100);
   }
 
   .pricing-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
   }
   
-  
   .why-front div.video-wrapper img {
-    margin-top: 230px;
-    height: 170px;
+    margin-top: 14.375rem;
+    height: 10.625rem;
     max-width: 93%;
+  }
+
+  .play-button {
+    margin-top: 14.375rem;
+    width: var(--size-55);
+    height: var(--size-55);
   }
 
   .hubspot-flex-wrapper img {
@@ -639,15 +595,15 @@
 
   .hubspot-flex-wrapper .grid-of-dots {
     position: absolute;
-    max-width: 203px;
+    max-width: 12.688rem;
     z-index: 10;
-    left: 40px;
-    top: 80px;
+    left: var(--size-40);
+    top: 5rem;
   }
 
   .front-reasons hr {
     margin: -50px -57px;
-    height: 16px;
+    height: var(--size-16);
     transform: rotate(90deg);
   }
 
@@ -656,7 +612,7 @@
   }
 
   .hubspot-text img {
-    max-width: 200px;
+    max-width: 12.5rem;
   }
 
   .hubspot-text br {
@@ -664,12 +620,12 @@
   }
 
   .trusted {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: var(--size-20);
+    padding-right: var(--size-20);
   }
 
   .pricing-grid-container {
-    margin-top: 20px;
+    margin-top: var(--size-20);
   }
 
   .btn-form {
@@ -677,7 +633,7 @@
   }
 
   .links {
-    margin-bottom: 70px;
+    margin-bottom: 4.375rem;
   }
 
   .footer-nav div.policy-terms {
@@ -689,12 +645,17 @@
   }
 
   .social-media select {
-    max-width: 150px;
+    max-width: var(--size-150);
   }
 
-  /* section.copyright {
-    margin-bottom: 20px;
-  } */
+  #scrollUp {
+    height: var(--size-30);
+    width: var(--size-30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 3px;
+  }
 } 
 
 @media screen and (max-width: 412px) {
@@ -705,38 +666,32 @@
 }
 
 @media screen and (max-width: 395px) {
-  .policy-terms span {
-    margin: 0 15px;
-  }
+  .policy-terms span {margin: 0 0.938rem;}
 
-  .social-media div {
-    margin-left: 13px;
-  }
+  .social-media div {margin-left: 0.813rem;}
 
-  .social-media select {
-    margin-left: 13px;
-  }
+  .social-media select {margin-left: 0.813rem;}
 }
 
 @media screen and (max-width: 392px) {
-  .logo6 { left: 240px; }
+  .logo6 {left: 15rem;}
 }
 
 @media screen and (max-width: 375px) {
-  .logo6 { left: 240px; }
+  .logo6 {left: 15rem;}
 
   .key-benefits p {
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 0.313rem;
+    margin-left: 0.313rem;
   }
 
   .front-reasons {
-    right: 65px;
-    margin-top: 70px;
+    right: 4.063rem;
+    margin-top: 4.375rem;
   }
 
   .why-front p {
-    width: 334px;
+    width: 20.875rem;
   }
 
   .why-front div.video-wrapper img {
@@ -744,15 +699,15 @@
   }
 
   .hubspot-text {
-    margin-top: 60px;
+    margin-top: var(--size-60);
   }
 
   .hubspot-text img {
-    max-width: 170px;
+    max-width: 10.625rem;
   }
 
   .hubspot-text p {
-    font-size: 16px;
+    font-size: var(--size-16);
   }
 
   .hubspot-flex-wrapper > img {
@@ -761,62 +716,53 @@
 
   .hubspot-flex-wrapper .grid-of-dots {
     position: absolute;
-    max-width: 146px;
+    max-width: 9.125rem;
     z-index: 10;
-    left: 25px;
-    top: 140px;
+    left: 1.563rem;
+    top: 8.75rem;
   }
 
   .logo-flex-wrapper div.logo {
-    min-width: 90px;
+    min-width: 5.625rem;
   }
-
-  /* .pricing-grid-container {
-    margin-top: 0px;
-    grid-template-columns: repeat(auto-fit, minmax(355px, 1fr));
-  } */
 
   .pricing-internal-grid {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   }
 
   .pricing-internal-grid div h4 {
-    font-size: 22px;
+    font-size: 1.375rem;
   }
 
   .pricing-internal-grid div p {
-    font-size: 18px;
+    font-size: var(--size-18);
   } 
 
   .pricing-internal-grid img {
-    max-width: 70px;
+    max-width: 4.375rem;
   }
 
   .pricing-internal-grid div p {
-    max-width: 350px;
-    margin-bottom: 50px;
+    max-width: 21.875rem;
+    margin-bottom: var(--size-50);
   }
 
   .starting-price {
-    margin-right: 20px;
+    margin-right: var(--size-20);
   }
 
   .starting-price p {
-    font-size: 18px;
+    font-size: var(--size-18);
   }
 
   .links {
-    gap: 50px;
-    margin-bottom: 55px;
+    gap: var(--size-50);
+    margin-bottom: var(--size-55);
   }
 
   .links-inside-container {
-    gap: 40px;
+    gap: var(--size-40);
   }
-
-  /* section.copyright {
-    margin-bottom: 0px;
-  } */
 }
 
 

@@ -18,6 +18,18 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+a:hover {
+  color:#3071ff;
+}
+
+div a:hover {
+  color:#3071ff;
+}
+
+form p a:hover {
+  color:#3071ff;
+}
+
 p { color: var(--font-color-light); }
 
 ul li {
@@ -25,7 +37,7 @@ ul li {
 }
 
 .container { 
-  max-width: 970px;
+  max-width: 60.625rem;
   margin-right: auto;
   margin-left: auto;
   padding-left: 20px;
@@ -37,9 +49,13 @@ ul li {
 }
 
 .btn-default {
-  padding: 10px 20px;
+  padding: .625rem 1.25rem;
   background-color: #3071ff;
   border-radius: 20px;
+  color: white;
+}
+
+.btn-default:hover {
   color: white;
 }
 
